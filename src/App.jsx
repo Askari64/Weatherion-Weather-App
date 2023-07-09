@@ -58,3 +58,9 @@ function App() {
 }
 
 export default App;
+
+//fetch data using axios from API
+/* imp links
+https://www.weatherapi.com/my/
+https://www.weatherapi.com/api-explorer.aspx#current
+https://www.weatherapi.com/docs/ */
