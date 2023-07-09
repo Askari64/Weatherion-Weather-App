@@ -36,7 +36,7 @@
   background-color: blue;
 }
 
-.Card-container {
+.Card-container-primary {
   display: flex;
   justify-content: center;
   align-items: center;
