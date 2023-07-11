@@ -16,9 +16,9 @@ function App() {
 
   const handleClick = () => {
     if (!city) {
-      
+
     }
-    const link = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+    const link = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
     axios
       .get(link)
       .then((res) => {
