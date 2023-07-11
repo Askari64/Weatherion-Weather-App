@@ -30,25 +30,35 @@ body {
   font-weight: 500;
 }
 
-.form-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .form {
-  border-color: aqua;
+  border: none;
+  border-bottom: 2px solid aqua;
   height: 25px;
   width: 150px;
+  background-color: transparent;
+  color: white;
+  padding: 5px;
 }
- .form:hover {
+
+.form::placeholder {
+  color: white;
+}
+
+.form:hover,
+.form:focus {
   border-color: gray;
 }
 
+
 .search-button {
- padding: 5px 10px;
- background-color: deepskyblue;
+  padding: 5px 10px;
+  background-color: deepskyblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
 }
+
 .search-button:hover {
   background-color: blue;
 }
