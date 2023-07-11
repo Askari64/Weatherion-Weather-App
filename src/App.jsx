@@ -48,10 +48,9 @@ function App() {
               <MdSearch />
             </button>
           </div>
-        </div>
-        <div className="Card-container-primary">
-          <CardHandler />
-        </div>
+
+          <CardHandler/>
+        </div>        
       </div>
     </>
   );

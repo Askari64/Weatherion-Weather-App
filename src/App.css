@@ -1,10 +1,27 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+}
+
 .bg {
-  background: url('https://images.hdqwalls.com/wallpapers/beautiful-scenery.jpg');
-  height: 50vh;
+  background-color: #0f172a;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .bg {
+      width: calc(100% - 50px);
+      margin: calc(20px + 1.5em + 20px + 2em + 10px) auto;
+  }
 }
 
 .heading {
@@ -12,10 +29,10 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 500;
 }
+
 .form-container {
   display: flex;
   align-items: center;
-  flex: -1;
   gap: 10px;
 }
 
@@ -34,13 +51,4 @@
 }
 .search-button:hover {
   background-color: blue;
-}
-
-.Card-container-primary {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  margin-top: 25px; 
-  border: 5px solid salmon;
 }
