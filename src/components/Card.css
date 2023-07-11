@@ -5,6 +5,8 @@
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
     padding: 25px;
+    color: white;
+
 
     /* Set the width of the card relative to its content */
     display: inline-block;
