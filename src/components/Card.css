@@ -7,17 +7,25 @@
     padding: 25px;
     color: white;
 
+    /* Use flexbox to center the card horizontally and vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    /* Set the width of the card relative to its content */
-    display: inline-block;
-
-    margin-top: calc(20px + 1.5em + 20px + 2em + 20px);
+    /* Use relative units for width and margin */
+    width: 80%;
+    max-width: 600px; /* Set a maximum width for larger screens */
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 600px) {
     .card-component {
-        width: calc(100% - 50px);
-        margin: calc(20px + 1.5em + 20px + 2em + 10px) auto;
+        /* Reduce the padding and margin for smaller screens */
+        padding: 15px;
+        margin-top: 3em;
     }
 }
   
@@ -30,6 +38,3 @@
     width: 50px;
     height: 50px;
 }
-
-
-  

@@ -12,22 +12,21 @@ body {
   background-color: #0f172a;
   height: 100vh;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-}
-
-@media (max-width: 600px) {
-  .bg {
-      width: calc(100% - 50px);
-      margin: calc(20px + 1.5em + 20px + 2em + 10px) auto;
-  }
 }
 
 .heading {
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 500;
+}
+
+.form-container {
+    /* Use flexbox to align the input and button horizontally */
+    display: flex;
+    align-items: center;
 }
 
 .form {
